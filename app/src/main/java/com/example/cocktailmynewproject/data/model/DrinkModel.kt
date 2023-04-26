@@ -7,7 +7,7 @@ data class DrinkModel(
     @SerializedName("dateModified")
     val dateModified: String? = "",
     @SerializedName("idDrink")
-    val idDrink: String? = "",
+    val idDrink: String = "",
     @SerializedName("strAlcoholic")
     val strAlcoholic: String? = "",
     @SerializedName("strCategory")
