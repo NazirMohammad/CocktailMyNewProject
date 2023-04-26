@@ -30,6 +30,6 @@
     <fragment
         android:id="@+id/cocktailDetail"
         android:name="com.example.cocktailmynewproject.CocktailDetail"
-        android:label="fragment_cocktail_detail"
+        android:label="Cocktail Details"
         tools:layout="@layout/fragment_cocktail_detail" />
 </navigation>

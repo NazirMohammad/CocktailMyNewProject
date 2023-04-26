@@ -35,13 +35,13 @@ class CocktailDetail : Fragment() {
         binding.people2.text = drinks?.strInstructionsZHHANS
         view?.let {
             Glide.with(it).load(drinks?.strDrinkThumb)
-                .into(binding.imageView)
-
+                .into(binding.imageView1)
 
         }
 
 
-        return binding.root
-    }
+
+            return binding.root
+        }
 
 }

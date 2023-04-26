@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             when (destination.id) {
                 R.id.navigation_home -> {
                     navView.visibility = View.GONE
-                    supportActionBar?.hide()
+                 //   supportActionBar?.hide()
 
                 }
                 else->{
@@ -53,4 +53,16 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-}}
+
+
+}
+
+    override fun onSupportNavigateUp(): kotlin.Boolean {
+        val navController = findNavController(R.id.nav_host_fragment_activity_main)
+        return navController.navigateUp() || super.onSupportNavigateUp()
+    }
+
+
+
+
+}

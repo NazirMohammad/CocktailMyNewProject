@@ -23,12 +23,7 @@ class HomeViewModel @Inject constructor(
             cocktail.postValue(repository.getBase_Url())
 
 
-//
-//        }
-//            fun getDrinkModel(){
-//                viewModelScope.launch {
-//                    val result = repository.getBase_Url()
-//                    cocktail.postValue(result)
+
         }
     }
 }
